@@ -23,6 +23,33 @@ ishlatiladi, TTS/AI audio emas — natija sun'iy bo'lib qoladi.
 
 Tekshiruv vositasi Sado repo'sida: `scripts/voice_intake.py` — o'lchaydi,
 masterlaydi, metama'lumot yozadi va sinov gapini generatsiya qiladi.
+Model (OmniVoice) o'zi 3–10 soniyalik namunani tavsiya qiladi va 20 s dan
+uzunini ogohlantiradi; 15 s dan uzun yozuvda eng toza 8–12 soniyalik bo'lak
+kesib olinadi.
+
+## Olti ovoz — kasting varaqasi
+
+Ovoz shaxsiyati faqat haqiqiy yozuvdan keladi: model tembr, nafas, ohang va
+yozuv muhitini namunadan ko'chiradi. "Ovoz dizayni" rejimi esa faqat jins,
+yosh va baland-pastlikni biladi — u bilan olti xil shaxs chiqmaydi, faqat olti
+xil balandlik chiqadi. Shuning uchun har bir rol uchun alohida odam yoziladi.
+
+| Rol | Yosh taassuroti | Tembr / ohang | F0 (taxminan) | Matn turi (yozuv uchun) |
+|---|---|---|---|---|
+| Tabiiy yosh ayol | 20–27 | iliq, aniq, do'stona suhbat; sun'iy shirinlik yo'q | 190–250 Hz | kundalik suhbat, 2–3 gap |
+| Professional ayol diktor | 28–40 | ishonchli, to'la rezonans, aniq artikulyatsiya | 165–220 Hz | yangilik yoki e'lon matni |
+| Ayol hikoyachi | 30–45 | iliq, ifodali, intensivlik o'zgarib turadi | 160–230 Hz | ertak yoki hikoya parchasi |
+| Tabiiy yosh erkak | 20–30 | bo'shashgan, o'rta-past, kundalik ohang | 100–140 Hz | kundalik suhbat |
+| Professional erkak diktor | 30–45 | chuqur, lekin tabiiy; kuchli rezonans | 85–125 Hz | yangilik yoki e'lon matni |
+| Keksa erkak | 65–80 | yoshga xos yengil xirillash, shoshilmas sur'at | 95–150 Hz | xotira, nasihat ohangidagi hikoya |
+
+Yozuv talablari hamma rol uchun bir xil (yuqoridagi qoidalar). Rol uchun
+matnni o'sha rolning ohangida o'qish kerak: diktor matnini hikoyachi ohangida
+o'qigan yozuv diktorga yaramaydi — model ohangni ham ko'chiradi.
+
+Namunani `scripts/voice_intake.py ... --install --check` bilan tekshirib,
+sinov gapini eshitib, keyin shu repo'ga `voices/<ism>_<til>_<jins>.wav` va
+`manifest.json` yozuvi sifatida qo'shiladi.
 
 ## Sxema
 
