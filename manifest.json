@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "name": "Sado Gallery",
+  "updated_at": "2026-11-10",
+  "homepage": "https://github.com/Anvarjon090/sado-gallery",
+  "packs": [
+    {
+      "id": "sado-starter",
+      "name": "Sado standart ovozlari",
+      "description": "Olti sintetik o'zbek ovozi (uch erkak, uch ayol): diktor, hikoyachi, ertakchi, reklama. OmniVoice va Navoiy bilan ishlaydi; rus va ingliz tillarida ham sinalgan.",
+      "icon": "Sparkles",
+      "item_ids": [
+        "sado_nilufar",
+        "sado_madina",
+        "sado_sevara",
+        "sado_jahongir",
+        "sado_bobur",
+        "sado_qodir"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "sado_nilufar",
+      "type": "voice",
+      "name": "Nilufar",
+      "description": "Aniq va ishonchli diktor ovozi — yangiliklar, e'lonlar, o'quv materiallari.",
+      "use_case": "informative",
+      "facets": {
+        "gender": "female",
+        "age": "middle-aged",
+        "pitch": "moderate pitch",
+        "accent": null,
+        "whisper": false,
+        "lang": "Uzbek"
+      },
+      "language": "Uzbek",
+      "languages_tested": [
+        "Uzbek",
+        "Russian",
+        "English"
+      ],
+      "audio": {
+        "url": "https://raw.githubusercontent.com/Anvarjon090/sado-gallery/main/voices/sado_nilufar.wav",
+        "ref_text": "Assalomu alaykum, hurmatli tomoshabinlar. Bugungi asosiy yangiliklar bilan tanishing. Poytaxtda yangi metro bekati foydalanishga topshirildi, viloyatlarda esa hosil yig'im-terimi davom etmoqda.",
+        "duration": 12.26,
+        "sha256": "f367b193065db673800b9d22f0c172324bb25ec25426a1f64cf06cb215c8a995"
+      },
+      "origin": {
+        "method": "voice design",
+        "engine": "omnivoice",
+        "instruct": "female, middle-aged, moderate pitch",
+        "seed": 7,
+        "note": "Synthetic voice: generated from a text description, not cloned from any person."
+      },
+      "author": "Sado",
+      "license": "OpenRAIL-M",
+      "source": "starter",
+      "added_at": "2026-11-10"
+    },
+    {
+      "id": "sado_madina",
+      "type": "voice",
+      "name": "Madina",
+      "description": "Yumshoq, past ohangli hikoyachi — audiokitob va uzun matnlar.",
+      "use_case": "narration",
+      "facets": {
+        "gender": "female",
+        "age": "middle-aged",
+        "pitch": "low pitch",
+        "accent": null,
+        "whisper": false,
+        "lang": "Uzbek"
+      },
+      "language": "Uzbek",
+      "languages_tested": [
+        "Uzbek",
+        "Russian",
+        "English"
+      ],
+      "audio": {
+        "url": "https://raw.githubusercontent.com/Anvarjon090/sado-gallery/main/voices/sado_madina.wav",
+        "ref_text": "Qadim zamonda, tog'lar orasidagi kichik bir qishloqda dono bir chol yashar ekan. Har kuni tong otishi bilan u bog'iga chiqib, daraxtlar bilan gaplashar ekan.",
+        "duration": 9.26,
+        "sha256": "354900058a8e19b1f25f25d5b250b9fddf046ea540685a6b63e25da87f17b464"
+      },
+      "origin": {
+        "method": "voice design",
+        "engine": "omnivoice",
+        "instruct": "female, middle-aged, low pitch",
+        "seed": 7,
+        "note": "Synthetic voice: generated from a text description, not cloned from any person."
+      },
+      "author": "Sado",
+      "license": "OpenRAIL-M",
+      "source": "starter",
+      "added_at": "2026-11-10"
+    },
+    {
+      "id": "sado_sevara",
+      "type": "voice",
+      "name": "Sevara",
+      "description": "Yosh, iliq ovoz — ertaklar, bolalar kontenti, do'stona suhbat.",
+      "use_case": "characters",
+      "facets": {
+        "gender": "female",
+        "age": "young adult",
+        "pitch": "moderate pitch",
+        "accent": null,
+        "whisper": false,
+        "lang": "Uzbek"
+      },
+      "language": "Uzbek",
+      "languages_tested": [
+        "Uzbek",
+        "Russian",
+        "English"
+      ],
+      "audio": {
+        "url": "https://raw.githubusercontent.com/Anvarjon090/sado-gallery/main/voices/sado_sevara.wav",
+        "ref_text": "Bir bor ekan, bir yo'q ekan, quyonchalar o'rmonida kichkina Oqquloq yashar ekan. U har kuni do'stlari bilan o'ynab, yangi sarguzashtlar qidirar ekan.",
+        "duration": 8.89,
+        "sha256": "dc73d1fb4a9f9a13470a6e144a8583751bc642fb63557e98b4eeb4bd6d283ee9"
+      },
+      "origin": {
+        "method": "voice design",
+        "engine": "omnivoice",
+        "instruct": "female, young adult, moderate pitch",
+        "seed": 7,
+        "note": "Synthetic voice: generated from a text description, not cloned from any person."
+      },
+      "author": "Sado",
+      "license": "OpenRAIL-M",
+      "source": "starter",
+      "added_at": "2026-11-10"
+    },
+    {
+      "id": "sado_jahongir",
+      "type": "voice",
+      "name": "Jahongir",
+      "description": "Salobatli diktor ovozi — yangiliklar, hujjatli filmlar, rasmiy matnlar.",
+      "use_case": "informative",
+      "facets": {
+        "gender": "male",
+        "age": "middle-aged",
+        "pitch": "low pitch",
+        "accent": null,
+        "whisper": false,
+        "lang": "Uzbek"
+      },
+      "language": "Uzbek",
+      "languages_tested": [
+        "Uzbek",
+        "Russian",
+        "English"
+      ],
+      "audio": {
+        "url": "https://raw.githubusercontent.com/Anvarjon090/sado-gallery/main/voices/sado_jahongir.wav",
+        "ref_text": "Assalomu alaykum, hurmatli tomoshabinlar. Bugungi asosiy yangiliklar bilan tanishing. Poytaxtda yangi metro bekati foydalanishga topshirildi, viloyatlarda esa hosil yig'im-terimi davom etmoqda.",
+        "duration": 12.21,
+        "sha256": "5c6644a88e0a11a7ce646475ac10bd01148f657703922672f2ee8ea45e05b652"
+      },
+      "origin": {
+        "method": "voice design",
+        "engine": "omnivoice",
+        "instruct": "male, middle-aged, low pitch",
+        "seed": 7,
+        "note": "Synthetic voice: generated from a text description, not cloned from any person."
+      },
+      "author": "Sado",
+      "license": "OpenRAIL-M",
+      "source": "starter",
+      "added_at": "2026-11-10"
+    },
+    {
+      "id": "sado_bobur",
+      "type": "voice",
+      "name": "Bobur",
+      "description": "Quvnoq, g'ayratli ovoz — reklama, ijtimoiy tarmoq videolari, suhbat.",
+      "use_case": "advertisement",
+      "facets": {
+        "gender": "male",
+        "age": "young adult",
+        "pitch": "moderate pitch",
+        "accent": null,
+        "whisper": false,
+        "lang": "Uzbek"
+      },
+      "language": "Uzbek",
+      "languages_tested": [
+        "Uzbek",
+        "Russian",
+        "English"
+      ],
+      "audio": {
+        "url": "https://raw.githubusercontent.com/Anvarjon090/sado-gallery/main/voices/sado_bobur.wav",
+        "ref_text": "Sado bilan har qanday matn jonli ovozga aylanadi! Tez, sifatli va butunlay sizning kompyuteringizda. Hoziroq sinab ko'ring.",
+        "duration": 7.67,
+        "sha256": "d5fed0af14ed0e966a867d240d18ea1b56bb6470ae939c5124c105e7f11ece9c"
+      },
+      "origin": {
+        "method": "voice design",
+        "engine": "omnivoice",
+        "instruct": "male, young adult, moderate pitch",
+        "seed": 7,
+        "note": "Synthetic voice: generated from a text description, not cloned from any person."
+      },
+      "author": "Sado",
+      "license": "OpenRAIL-M",
+      "source": "starter",
+      "added_at": "2026-11-10"
+    },
+    {
+      "id": "sado_qodir",
+      "type": "voice",
+      "name": "Qodir",
+      "description": "Keksa, bosiq hikoyachi — ertak, xotiralar, hikmatli matnlar.",
+      "use_case": "narration",
+      "facets": {
+        "gender": "male",
+        "age": "elderly",
+        "pitch": "low pitch",
+        "accent": null,
+        "whisper": false,
+        "lang": "Uzbek"
+      },
+      "language": "Uzbek",
+      "languages_tested": [
+        "Uzbek",
+        "Russian",
+        "English"
+      ],
+      "audio": {
+        "url": "https://raw.githubusercontent.com/Anvarjon090/sado-gallery/main/voices/sado_qodir.wav",
+        "ref_text": "Bolalarim, sizlarga bir hikoya aytib beray. Yoshligimda biz dalada ishlab, kechqurun gulxan atrofida qo'shiq aytardik. O'sha kunlar hali ham yodimda.",
+        "duration": 9.38,
+        "sha256": "8332e6c1b96ac1df1d4cc450f964f5b10ec804efe047533b412d5fa79e7c9124"
+      },
+      "origin": {
+        "method": "voice design",
+        "engine": "omnivoice",
+        "instruct": "male, elderly, low pitch",
+        "seed": 7,
+        "note": "Synthetic voice: generated from a text description, not cloned from any person."
+      },
+      "author": "Sado",
+      "license": "OpenRAIL-M",
+      "source": "starter",
+      "added_at": "2026-11-10"
+    }
+  ]
+}
